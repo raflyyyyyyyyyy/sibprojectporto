@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sib project porto</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <style>
+    #home {
+      background-color: #ffff10;
+    }
+
+    #home > img {
+      margin-top: 20px;
+    }
+
+    nav {
+      background-color: black;
+      color: white;
+    }
+
+    .navbar-nav,
+    .nav-link,
+    .navbar-brand {
+      color: white;
+    }
+
+  .navbar-nav .nav-link:hover {
+  color: yellow; 
+}
+
+.navbar-brand:hover{
+  color:yellow;
+}
+
+
+
+    
+
+
+  </style>
+  <body class="">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class=" container">
+        <a class="navbar-brand" href="#">Rafli</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About me</a>
+            <a class="nav-link" href="#projects">Project</a>
+            <a class="nav-link" href="#contact">Contact me</a>
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jumbtron -->
+    <section class="text-center" id="home">
+      <img
+        src="assets/image.jpg"
+        alt="Ada Meteor bang"
+        width="300"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="">Muhammad Rafli</h1>
+      <p>Student | Informatic</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="27303"
+          fill-opacity="1"
+          d="M0,192L30,202.7C60,213,120,235,180,245.3C240,256,300,256,360,224C420,192,480,128,540,122.7C600,117,660,171,720,197.3C780,224,840,224,900,213.3C960,203,1020,181,1080,197.3C1140,213,
+            1200,267,1260,282.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,
+            320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,
+            320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,
+            320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- aboutme -->
+    <section id="about" class="" style="background-color: black">
+      <div class="container text-center text-light">
+        <div>
+          <h1>About Me</h1>
+        </div>
+        <div
+          class="row justify-content-center fs-5 text-center text-light-emphasis"
+        >
+          <div class="col-md-4">
+            <p>
+              Saya Muhammad Rafli, seorang mahasiswa teknik komputer di
+              Universitas Islam Sultan Agung. Saya berasal dari Kalimantan
+              Timur, tepatnya di Penajam Paser Utara. Selain belajar, saya juga
+              memiliki beragam hobi seperti bermain game dan membaca komik
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              Saya juga tertarik untuk belajar tentang teknologi dan
+              mengaplikasikannya melalui coding. Sebagai seorang mahasiswa
+              teknik informatika, saya selalu ingin terus belajar dan
+              mengembangkan diri dalam bidang saya. Hobi-hobi saya seperti
+              coding adalah salah satu cara bagi saya untuk terus belajar dan
+              berkreasi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff10"
+          fill-opacity="1"
+          d="M0,64L48,74.7C96,85,192,107,288,117.3C384,128,480,128,576,138.7C672,149,768,171,864,165.3C960,160,1056,128,1152,96C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- project -->
+    <section id="projects" style="background-color: #ffff10">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col"></div>
+          <h2>My Projects</h2>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/porto1.png" alt="project (1)" />
+              <div class="card-body">
+                <p class="card-text">
+                  Merupakan website untuk menampilkan daftar film mempunyai
+                  fungsi untuk mencari daftar film dari berbagai dunia
+                  berdasarkan popularitas, tahun, ataupun judul. Data film
+                  didapatkan dari api TMBD
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/porto1.png" alt="project (1)" />
+              <div class="card-body">
+                <p class="card-text">
+                  Merupakan website untuk menampilkan daftar film mempunyai
+                  fungsi untuk mencari daftar film dari berbagai dunia
+                  berdasarkan popularitas, tahun, ataupun judul. Data film
+                  didapatkan dari api TMBD
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/porto1.png" alt="project (1)" />
+              <div class="card-body">
+                <p class="card-text">
+                  Merupakan website untuk menampilkan daftar film mempunyai
+                  fungsi untuk mencari daftar film dari berbagai dunia
+                  berdasarkan popularitas, tahun, ataupun judul. Data film
+                  didapatkan dari api TMBD
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="black" fill-opacity="1" 
+        d="M0,64L48,101.3C96,139,192,213,288,208C384,203,480,117,576,122.7C672,128,768,224,864,240C960,256,
+        1056,192,1152,176C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,
+        320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+    <!-- contact me -->
+    <section id="contact" style="background-color: black;">
+        <div class="container text-light">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center text-dark-emphasis ">
+                <div class="col-md-6">
+                  
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Nama</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-success text-gray-emphasis ">Kirim</button>
+                       
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+     
+    </section>
+
+    <!-- footer -->
+    <footer class=" text-center pb-5 " style="background-color: black">
+        <p class="text-dark-emphasis">Created by <a class=" fw-bold ft" target="_blank" href="https://raflidocs.netlify.app/" >
+        Muhammad Rafli</a>
+        </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
